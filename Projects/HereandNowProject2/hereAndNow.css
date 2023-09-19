@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 160px/231px    10rem / 14.438rem*/
+.form {}
+
+.form h1 {
+    font-family: 'Satisfy';
+    font-size: 8rem;
+}
+
+.form h3 {
+    font-family: 'Varela Round';
+    font-size: 1.5rem;
+}
+
+.form p {
+    font-family: 'Varela Round';
+    max-width: 25rem;
+}
+
+.label {
+    font-size: 0.75rem;
+}
+
+.input {
+    width: 15rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.formfill {
+    display: flex;
+    column-gap: 1rem;
+    align-items: end;
+}
+
+.fillArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.updatethou {
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.updatethou a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Varela Round';
+    font-size: 0.8rem;
+}

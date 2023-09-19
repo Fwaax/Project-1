@@ -1,0 +1,13 @@
+Ryan Bazdug
+ריאן בזאדוג
+היה לי קשה לחשוב על פרוייקטים מהראש אני מקווה ש פרוייקטים 5 ו-6 מספק לציון 
+I mostly used HTML and CSS  bit of Bootstrap and SASS
+I tried to code creativly (sometimes I made it too complicated for myself)
+
+My very first Project in Full-Stack:
+I had an assignment to complete a seires of challenges for my project 
+(Link here later)
+
+Code Features:
+This small site talks bit about me and shows how what project I've made in the gallery section
+Most of the features work execpt the footer where I need to put in my location phone-number etc
