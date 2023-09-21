@@ -10,7 +10,7 @@
 
 <body>
     <div class="imgContainer">
-        <img class="img" src="../../pics/Ryan.jpg" alt="">
+        <img class="img" src="../../pics/Ryan.jpg" alt="" onclick="changebgc()">
     </div>
     <div class="textContainer">
         <h1>Here are some of my favorate stuff</h1>
@@ -72,6 +72,20 @@
             </div>
         </div>
     </div>
+
+    <script>
+        x = 1;
+        function changebgc() {
+            if (x % 2 == 0) {
+                let color = document.bgColor = "background: radial - gradient(circle, rgba(37, 76, 165, 1) 0 %, rgba(125, 58, 146, 1) 66 %, rgba(148, 72, 95, 1) 100 %);";
+                x++;
+            }
+            else {
+                let color = document.bgColor = "background: linear - gradient(90deg, rgba(102, 135, 209, 1) 12 %, rgba(151, 54, 181, 1) 23 %, rgba(180, 11, 62, 1) 58 %);";
+                x++;
+            }
+        }
+    </script>
 </body>
 
 </html>
